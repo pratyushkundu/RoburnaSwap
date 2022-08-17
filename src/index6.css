@@ -1,0 +1,247 @@
+:root {
+  --primary: #0091ff;
+  --dark: #061b28;
+  --gray: #756388;
+  --light: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+.main_div6 {
+  position: absolute;
+  width: 144rem;
+  height: 99.2rem;
+  left: 0px;
+  top: 0px;
+  background: rgba(242, 243, 245, 0.4);
+  backdrop-filter: blur(1.4rem);
+  border-radius: 0.8rem;
+}
+.wallet_pop_up {
+  position: absolute;
+  width: 52.2rem;
+  height: 35rem;
+  margin-left: 45.9rem;
+  margin-top: 22rem;
+  background: #ffffff;
+  /* border: 2px solid black; */
+}
+.wallet_pop_up_top {
+  margin-top: 3rem;
+  margin-left: 3.5rem;
+}
+.wallet_close {
+  display: flex;
+  flex-direction: row;
+  gap: 27.7rem;
+}
+.wallet_head {
+  width: 11.1rem;
+  height: 2.4rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+.close_div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.close_head {
+  width: 3.8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+  margin-top: 0.6rem;
+}
+.close_img {
+  margin-top: 0.4rem;
+}
+.wallet_pop_up_bottom {
+  margin-top: 3rem;
+  margin-left: 3.5rem;
+}
+.wallet_pop_up_bottom_balance_section {
+  display: flex;
+  flex-direction: row;
+  gap: 10.7rem;
+}
+.walet_info_div_left {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.wallet_info {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.account_head {
+  width: 5.6rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #807373;
+}
+.address_head {
+  width: 10.8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+.dot_img {
+  /* margin-left: 0.4rem; */
+}
+.copy_img {
+  margin-left: 1rem;
+}
+.account_info_and_img {
+  display: flex;
+  flex-direction: row;
+}
+.wallet_info_div_right {
+  display: flex;
+  flex-direction: column;
+}
+.price_info_top {
+  display: flex;
+  flex-direction: row;
+}
+.price_info_bottom {
+}
+.three_dash_icon {
+  width: 0.8rem;
+  height: 1.392rem;
+  margin-top: 0.54rem;
+}
+.price_1 {
+  width: 6.7rem;
+  height: 2.4rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+.price_2 {
+  width: 7.1rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #807373;
+  margin-left: 5.4rem;
+  margin-top: 1.2rem;
+}
+.wallet_pop_up_bottom_order_section {
+  position: absolute;
+  width: 45.2rem;
+  height: 2.4rem;
+}
+#order_div{
+  width: 45.2rem;
+  height: 2.4rem;
+  margin-top: 2.8rem;
+  border: none;
+  background: url('images/task.png') no-repeat 1rem;
+  padding-left: 5rem;
+  font-weight: 700;
+font-size: 1.6rem;
+}
+.horizontal_arr {
+  margin-top: 3rem;
+  width: 45.2rem;
+}
+.horizontal_arr1 {
+  margin-top: 7.6rem;
+  width: 45.2rem;
+}
+.button_section {
+  margin-top: 4.1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+#button_14 {
+  width: 21.1rem;
+  height: 5rem;
+  background: rgba(229, 96, 96, 0.16);
+  /* opacity: 0.08; */
+  border-radius: 0.6rem;
+  /* border: 2px solid black; */
+}
+#button_15 {
+  width: 21.1rem;
+  height: 5rem;
+  background:rgba(0, 120, 64, 0.13);
+  /* opacity: 0.08; */
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid black; */
+}
+
+.button_left {
+  width: 14.1rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #e56060;
+  margin-top: 1.5rem;
+  margin-left: 3.5rem;
+}
+.button_right {
+  width: 13.3rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #00783f;
+  opacity: 0.7;
+  margin-top: 1.5rem;
+  margin-left: 3.5rem;
+}
+.arrow_img {
+  margin-top: 0.6rem;
+  width: 4rem;
+  height: 4rem;
+}

@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+.main_div1 {
+  position: relative;
+  width: 144rem;
+  height: 99.2rem;
+  background: #f2f3f5;
+}
+.hero_section1 {
+  position: absolute;
+  width: 144rem;
+  height: 99.2rem;
+  left: 0px;
+  top: 0px;
+  background-image: url("images/BG.png");
+  background: rgba(23, 24, 26, 0.4);
+backdrop-filter: blur(14px);
+}
+.pop_up_divs {
+  position: absolute;
+  width: 49rem;
+  height: 34.4rem;
+  margin-left: 475px;
+  margin-top: 290px;
+  background: #ffffff;
+  border-radius: 1rem;
+}
+.pop_top {
+  margin-top: 3rem;
+  margin-left: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20.2rem;
+}
+.pop_top_left {
+  /* position: absolute; */
+  width: 15.4rem;
+  height: 2.4rem;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+.pop_top_right {
+  margin-top: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.pop_close {
+  width: 3.8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+.pop_bottom {
+  margin-left: 6.125rem;
+  margin-top: 5.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10.2rem;
+}
+.pop_inner {
+  margin-bottom: 4.6rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.pop_head {
+  margin-top: 0.7rem;
+  width: 8.7rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #807373;
+}

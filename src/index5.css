@@ -1,0 +1,353 @@
+:root {
+  --primary: #0091ff;
+  --dark: #061b28;
+  --gray: #756388;
+  --light: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+.main_div5 {
+  position: absolute;
+  width: 144rem;
+  height: 99.2rem;
+  left: 0px;
+  top: 0px;
+  background: rgba(242, 243, 245, 0.4);
+  backdrop-filter: blur(1.4rem);
+  border-radius: 0.8rem;
+}
+.settings_pop_up {
+  width: 42rem;
+  height: 66.1rem;
+  margin-left: 51rem;
+  margin-top: 14rem;
+}
+.settings_pop_up_top {
+  margin-top: 3rem;
+  margin-left: 3.5rem;
+}
+.settings_close_div {
+  display: flex;
+  flex-direction: row;
+  gap: 20.7rem;
+}
+.settings_token_head {
+  width: 7.9rem;
+  height: 2.4rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+.close {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.close_head {
+  width: 3.8rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+  margin-top: 0.6rem;
+}
+.close_img {
+  margin-top: 0.5rem;
+}
+
+.settings_pop_up_bottom {
+  margin-top: 5rem;
+}
+.GWET_section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.5rem;
+}
+.GWEI_speed {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.GWEI_speed_head {
+  width: 26.2rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #807373;
+}
+.GWEI_question_img,
+.slip_question_img,
+.deadline_question_img {
+  color: #a69f9f;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 0.4rem;
+}
+.GWEI_option {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  gap: 1.6rem;
+}
+.GWEI_option1 {
+  width: 12.5rem;
+  height: 4.9rem;
+  background: rgba(200, 146, 17, 0.7);
+  border-radius: 0.6rem;
+}
+.GWEI_option2 {
+  width: 8.6rem;
+  height: 4.9rem;
+  background: rgba(200, 146, 17, 0.08);
+  border-radius: 0.6rem;
+}
+.GWEI_option3 {
+  width: 10.6rem;
+  height: 4.9rem;
+  background: rgba(200, 146, 17, 0.08);
+  border-radius: 0.6rem;
+}
+.GWEI_option_head1 {
+  width: 9.5rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.GWEI_option_head2 {
+  width: 5.6rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #c89211;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.GWEI_option_head3 {
+  width: 7.6rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #c89211;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.slippage_section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.5rem;
+  margin-top: 3rem;
+}
+.slip_tollerance {
+  width: 17.1rem;
+  height: 1.9rem;
+  display: flex;
+  flex-direction: row;
+}
+.slip_tollerance_head {
+  width: 14.9rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #807373;
+}
+.slip_option {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.slip_option1 {
+  width: 6.3rem;
+  height: 4.9rem;
+  background: rgba(200, 146, 17, 0.08);
+  border-radius: 0.6rem;
+}
+.slip_option_head1 {
+  width: 3.3rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #c89211;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.slip_option2 {
+  width: 11.4rem;
+  height: 4.9rem;
+  background: #f5f1eb;
+  border-radius: 0.6rem;
+}
+.slip_option_head2 {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #464754;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+.deadline_section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.5rem;
+  margin-top: 3rem;
+}
+.deadline_transaction {
+  width: 23.6rem;
+  height: 1.9rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.deadline_transaction_head {
+  width: 21.4rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #807373;
+}
+.deadline_option {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.deadline_option1 {
+  width: 8.6rem;
+  height: 4.9rem;
+  background: rgba(200, 146, 17, 0.08);
+  border-radius: 0.6rem;
+}
+.deadline_option2 {
+  width: 13.5rem;
+  height: 4.9rem;
+  background: #f5f1eb;
+  border-radius: 0.6rem;
+}
+.deadline_option_head1 {
+  width: 5.6rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #c89211;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.deadline_option_head2 {
+  color: #464754;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+.personalisation_section {
+  margin-top: 4rem;
+  margin-left: 3.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.personalisation {
+  width: 10.3rem;
+  height: 1.7rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+.Mode_preference {
+  display: flex;
+  flex-direction: row;
+  gap: 18.1rem;
+  margin-top: 3.3rem;
+}
+.Mode_head {
+  width: 8.4rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #807373;
+}
+#button_13 {
+  position: absolute;
+  width: 35rem;
+  height: 5rem;
+  margin-left: 3.5rem;
+  margin-top: 4.4rem;
+  background: #00783f;
+  border-radius: 0.6rem;
+}
+.save_head {
+  width: 11.2rem;
+  height: 1.9rem;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  margin-left: 11.9rem;
+}
