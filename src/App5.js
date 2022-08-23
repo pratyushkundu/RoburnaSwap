@@ -3,7 +3,7 @@ import './index5.css';
 
 const App5 = () => {
     return (
-        <div className='main_div5'>
+        <div className='Main_div5'>
             <div className='settings_pop_up'>
                 <div className='settings_pop_up_top'>
                     <div className='settings_close_div'>

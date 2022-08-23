@@ -3,7 +3,7 @@ import './index6.css'
 
 const App6 = () => {
     return (
-        <div className='main_div6'>
+        <div className='Main_div6'>
             <div className='wallet_pop_up'>
                 <div className='wallet_pop_up_top'>
                     <div className='wallet_close'>

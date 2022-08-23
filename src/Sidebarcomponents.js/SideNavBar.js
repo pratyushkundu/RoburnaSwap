@@ -33,7 +33,7 @@ const SideNavBar = () => {
 			icon: "icons/heart.svg",
 		},
 		{
-			text: "Settings",
+			text: "Roburna",
 			icon: "icons/settings.svg",
 		},
 	];
