@@ -1,0 +1,628 @@
+:root {
+    --primary: #0091ff;
+    --dark: #061b28;
+    --gray: #756388;
+    --light: #ffffff;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .main_div21 {
+    position: relative;
+    width: 144rem;
+    height: 112.1rem;
+    background: #f2f3f5;
+  }
+  .hero_sections {
+    display: flex;
+    flex-direction: row;
+  }
+  .hero_section_right_div {
+  }
+  .divimp {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 87rem;
+    gap: 3rem;
+  }
+  .top_div_1 {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 37.2rem;
+  }
+  .top_div_1_left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9.8rem;
+  }
+  .top_div_1_left_top {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    gap: 10px;
+    width: 23.9rem;
+    height: 3.7rem;
+  }
+  .top_div_1_left_top_head {
+    width: 14.6rem;
+    height: 3.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.1rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #807373;
+  }
+  .top_div_1_left_top_head1 {
+    width: 10.1rem;
+    height: 3rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #00783f;
+    margin-top: 0.5rem;
+  }
+  .arrowImg {
+    width: 1.2rem;
+    height: 1.8rem;
+    margin-top: 1.2rem;
+  }
+  .top_div_1_left_bottomz {
+    margin-top: 1rem;
+    width: 30rem;
+    height: 1.9rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+  }
+  #button_7,
+  #button_8 {
+    width: 5rem;
+    height: 5rem;
+    background: #ffffff;
+    border-radius: 0.6rem;
+  }
+  .top_div_1_right {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  #button_9 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1.3rem 2rem;
+    gap: 1rem;
+    width: 20.1rem;
+    height: 5rem;
+    background: #ffffff;
+    border: 2px solid rgba(0, 120, 63, 0.5);
+    border-radius: 6px;
+  }
+  .bell_div,
+  .Settings_div {
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+  }
+  .heading_meta {
+    width: 9.3rem;
+    height: 2.4rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #464754;
+  }
+  .mid_back_imgs {
+    background: url("images/TreeLogo.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: 5.3rem;
+    height: 84.7rem;
+    width: 84.3rem;
+    margin-top: 1.9rem;
+    margin-left: 9.8rem;
+  }
+  .middle_divs {
+    /* position: absolute; */
+    width: 42rem;
+    height: 88rem;
+    margin-top: 4.1rem;
+    /* margin-left: 20.9rem; */
+  }
+  .middle_div_top {
+    width: 42rem;
+    height: 6.4rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .middle_div_top_mid1 {
+    width: 14rem;
+    height: 6.4rem;
+    background: #ffffff;
+    /* border-radius: 1rem 0px 0px 0px; */
+  }
+  .middle_div_top_left1,
+  .middle_div_top_right1 {
+    width: 14rem;
+    height: 6.4rem;
+    background: #faf8f5;
+    border-radius: 0px;
+  }
+  .swap_head1 {
+    position: absolute;
+    width: 4.3rem;
+    height: 1.9rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #00783f;
+    margin-top: 2.3rem;
+    margin-left: 4.8rem;
+  }
+  .liquidity_head1,
+  .limit_head1 {
+    position: absolute;
+    width: 6.7rem;
+    height: 1.9rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #a69f9f;
+    margin-top: 2.3rem;
+    margin-left: 4.8rem;
+  }
+  .liquidity_head1 {
+    margin-left: 3.5rem;
+  }
+  .middle_div_bottomz {
+    position: absolute;
+    width: 42rem;
+    height: 26.3rem;
+    background: #ffffff;
+    /* border-radius: 0px 0px 1rem 1rem; */
+    border-radius: 1rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .middle_div_bottom_tops {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3.5rem;
+    margin-top: 5rem;
+    width: 35rem;
+    height: 4.4rem;
+    gap: 3.1rem;
+  }
+  .form_section,
+  .form_sections {
+    width: 7.3rem;
+    height: 4.4rem;
+  }
+  .form_heads {
+    margin-top: 1.3rem;
+    width: 7.3rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+  }
+  
+  .input_section,
+  #img_logos,
+  #img_logoz {
+    width: 24.6rem;
+    height: 4.4rem;
+    background: #f5f1eb;
+    border-radius: 6px;
+  }
+  #img_logos {
+    background: #f5f1eb url(images/BinanceCoins.png) no-repeat 2rem 1rem;
+    padding: 13px 20px 13px 47px;
+  }
+  #img_logoz {
+    background: #f5f1eb url(images/DODO.png) no-repeat 2rem 1rem;
+    padding: 13px 20px 13px 47px;
+  }
+  .middle_div_bottom_bottom {
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .middle_div_bottom_bottom_top {
+    display: flex;
+    flex-direction: row;
+    gap: 19.4rem;
+  }
+  .middle_div_bottom_bottom_bottom,
+  .middle_div_bottom_bottom_bottomzz {
+    margin-top: 1rem;
+    width: 35rem;
+    height: 9.2rem;
+    background: #f5f1eb;
+    border-radius: 0.6rem;
+  }
+  
+  .middle_div_bottom_bottom_bottom_inner {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .leftz {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightz {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+  .rightz_1 {
+    margin-left: 18rem;
+  }
+  .stroking {
+    margin-left: 16.3rem;
+  }
+  .left_1 {
+    width: 5.3rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #807373;
+  }
+  .right_1 {
+    width: 10.3rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.001em;
+    color: #a69f9f;
+  }
+  
+  #button_11 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.2rem 1.6rem;
+    gap: 1rem;
+    width: 5.9rem;
+    height: 2.1rem;
+    background: rgba(194, 157, 70, 0.08);
+    border-radius: 0.2rem;
+    margin-top: 1.2rem;
+  }
+  #button_10 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0.2rem 1.5rem;
+    gap: 1rem;
+    width: 6rem;
+    height: 2.1rem;
+    background: rgba(0, 120, 63, 0.08);
+    border-radius: 0.2rem;
+  }
+  .left_3 {
+    width: 2.7rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #c89211;
+  }
+  .right_3 {
+    width: 3rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #00783f;
+    opacity: 0.7;
+  }
+  .left_2 {
+    width: 6.7rem;
+    height: 2.4rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+  }
+  .right_2,
+  .right_2s {
+    width: 7.1rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #807373;
+    margin-top: 1.2rem;
+  }
+  .right_2s {
+    margin-top: 0.4rem;
+  }
+  .switchs_div {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 20rem;
+    margin-top: 25.3rem;
+    z-index: 1;
+  }
+  .middle_div_lastz {
+    position: absolute;
+    width: 42rem;
+    height: 42.6rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    margin-top: 26.3rem;
+  }
+  #button_12s {
+    position: absolute;
+    width: 42rem;
+    height: 6.4rem;
+    background: #00783f;
+    border-radius: 6px;
+    margin-top: 72.9rem;
+  }
+  .last_button_heading {
+    position: absolute;
+    width: 5.3rem;
+    height: 2.4rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-left: 18.3rem;
+  }
+  
+  /* .price_div {
+      display: flex;
+      flex-direction: row;
+      width: 18rem;
+      height: 1.6rem;
+    }
+    .price_head {
+      width: 16rem;
+      height: 1.6rem;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+      text-align: right;
+      letter-spacing: -0.001em;
+      color: #464754;
+    } */
+  /* .sync_img {
+      margin-left: 2rem;
+    } */
+  
+  .routes_div {
+    margin-top: 51.6rem;
+    position: absolute;
+    margin-left: 3.5rem;
+    width: 35rem;
+    height: 13.8rem;
+    background: #faf8f5;
+    border-radius: 0.6rem;
+  }
+  /* .route_top {
+      display: flex;
+      flex-direction: row;
+      margin-left: 2rem;
+      margin-top: 2rem;
+    } */
+  /* .route_top_left {
+      width: 4rem;
+      height: 1.7rem;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.4rem;
+      line-height: 1.7rem;
+      letter-spacing: 0.04em;
+      color: #807373;
+    }
+    .question_image {
+      width: 1.2rem;
+      height: 1.2rem;
+      margin-left: 1.2rem;
+      margin-top: 0.2rem;
+    } */
+  /* .route_mid {
+      width: 31rem;
+      height: 2rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+    } */
+  .route_bottomz {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 7.8rem;
+  }
+  .route_head11,
+  .route_head1_1_1 {
+    width: 13.5rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.04em;
+    color: #807373;
+    margin-bottom: 1rem;
+  }
+  .route_head1_1 {
+    display: flex;
+    flex-direction: row;
+    width: 11.4rem;
+    gap: 1rem;
+  }
+  .question_img1 {
+    width: 1.2rem;
+    height: 1.2rem;
+  
+    /* Light/Text/Dimmed */
+  
+    color: #a69f9f;
+    margin-top: 0.2rem;
+  }
+  .route_head1_1_1 {
+    width: 9.2rem;
+  }
+  .route_head21,
+  .route_head31 {
+    width: 9.7rem;
+    height: 1.6rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: right;
+    letter-spacing: -0.001em;
+    color: #464754;
+    margin-bottom: 1.1rem;
+  }
+  .route_head31 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4.5rem;
+  }
+  
+  .horizontal_arrow_img {
+    width: 3rem;
+    height: 0rem;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    border: 1px dashed rgba(41, 45, 50, 0.5);
+    margin-top: 0.8rem;
+  }
+  .hero_section_right_liquidity_div {
+    border: 2px solid red;
+    width: 42rem;
+    height: 60rem;
+    margin-top: 4rem;
+  }
+  .liquidity_divison {
+    position: absolute;
+    width: 42rem;
+    height: 6.4rem;
+    background: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+  }
+  
+  .liquidity_heading {
+    width: 10.7rem;
+    height: 1.9rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #00783f;
+    margin-left: 15.7rem;
+    margin-top: 2.3rem;
+  }
+  .liquidity_list {
+    height: 53.6rem;
+    width: 42rem;
+    margin-top: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5.6rem; */
+    background: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .liquidity_list_box{
+    margin-left: 3.5rem;
+  }
+  #liquidity_1 {
+    height: 3.6rem;
+    width: 35rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #464754;
+    margin-bottom: 1.7rem;
+    margin-top: 1.5rem;
+    background:no-repeat 1rem 0.6rem;
+    padding:0.6rem 6rem;
+    border: none;
+  }
+  .line_stroke {
+    width: 35rem;
+    height: 0px;
+    color: #a69f9f;
+    opacity: 0.3;
+    border: 1px dashed #a69f9f;
+  }
+  

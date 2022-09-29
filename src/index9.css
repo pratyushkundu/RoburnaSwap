@@ -1,0 +1,301 @@
+:root {
+    --primary: #0091ff;
+    --dark: #061b28;
+    --gray: #756388;
+    --light: #ffffff;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  .main_div6 {
+    position: relative;
+    width: 144rem;
+    height: 112.1rem;
+    background: #f2f3f5;
+  }
+  .liquidity_pop_up {
+    position: absolute;
+    width: 42rem;
+    height: 79.6rem;
+    left: 51rem;
+    top: 10rem;
+    background: #ffffff;
+  }
+  .liquidity_top {
+    width: 42rem;
+    height: 7.4rem;
+  }
+  .liquidity_inner_top {
+    display: flex;
+    flex-direction: row;
+    gap: 12.1rem;
+    margin-left: 3.5rem;
+  }
+  .liquidity_remove_head {
+    width: 16.5rem;
+    height: 2.4rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+    margin-top: 3rem;
+  }
+  .liquidity_close {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 1rem;
+  }
+  .close_head {
+    width: 3.8rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+  }
+  .close_imgs {
+    margin-top: 0.4rem;
+  }
+  .liquidity_bottom {
+    position: absolute;
+    width: 42rem;
+    height: 61.8rem;
+    background: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .liquidity_inner_bottom {
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+  }
+  .liquidity_bottom_top {
+    display: flex;
+    flex-direction: row;
+    gap: 19.8rem;
+  }
+  .Amt_head {
+    width: 5.3rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #807373;
+  }
+  .Amt_price {
+    width: 10.1rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: -0.001em;
+    color: #a69f9f;
+  }
+  #button_16 {
+    margin-top: 65.8rem;
+    position: absolute;
+    width: 42rem;
+    height: 6.4rem;
+    background: #00783f;
+    border-radius: 0.6rem;
+  }
+  .Input_box {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 11.5rem;
+    background: #f5f1eb;
+    border-radius: 0.6rem;
+  }
+  .Input_box_top {
+    display: flex;
+    flex-direction: row;
+    gap: 17.2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .Input_box_bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 1.9rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .Input_amt_head {
+    width: 6.7rem;
+    height: 2.4rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+  }
+  .Input_amt_price {
+    width: 7.1rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #807373;
+    margin-top: 0.6rem;
+  }
+  .percentange_box {
+    padding: 0.7rem 1.8rem;
+    width: 6.2rem;
+    height: 3.1rem;
+    background: rgba(194, 157, 70, 0.16);
+    border-radius: 0.2rem;
+  }
+  .percent_head {
+    width: 2.6rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #c89211;
+  }
+  .down_arr {
+    margin-top: 1.5rem;
+    margin-left: 15rem;
+    margin-bottom: 1.5rem;
+  }
+  .liquidity_form_sect {
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+  }
+  .form_heading {
+    width: 8.8rem;
+    height: 1.7rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #464754;
+    margin-top: 1.4rem;
+  }
+  .recieve_div {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    width: 23rem;
+    height: 4.4rem;
+    background: #faf8f5;
+    border-radius: 0.6rem;
+  }
+  .recieve_head {
+    width: 8.3rem;
+    height: 1.9rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #464754;
+    margin-top: 1rem;
+  }
+  .recieve_img {
+    width: 3.6rem;
+    height: 2.4rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .amt_bal_div,
+  .amt_bal_div_1 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 19.8rem;
+    margin-bottom: 1rem;
+  }
+  .amt_bal_div_1 {
+    margin-top: 0rem;
+  }
+  .Input_div_1 {
+    width: 35rem;
+    height: 6.4rem;
+    background: #f5f1eb;
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 14rem;
+  }
+  .img_price {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin: 2rem;
+    gap: 1rem;
+  }
+  .token_price {
+    width: 5.9rem;
+    height: 2.4rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: -0.001em;
+    color: #464754;
+  }
+  .token_bal {
+    margin-top: 2.3rem;
+    width: 6.2rem;
+    height: 1.6rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: right;
+    letter-spacing: -0.001em;
+    color: #807373;
+  }
+  .plus_img {
+    margin-left: 15rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .Remove {
+    width: 7.6rem;
+    height: 2.4rem;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-left: 17.2rem;
+  }
+  
